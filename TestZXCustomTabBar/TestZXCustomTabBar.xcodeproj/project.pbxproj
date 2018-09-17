@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476B44F46FE210B85F4FE897 /* libPods-TestZXCustomTabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D93E597A38F195B3ACC6C934 /* libPods-TestZXCustomTabBar.a */; };
+		5E9080474F423B264FB20778 /* libPods-TestZXCustomTabBarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E33FF4EC8ECBFB5CFA420AFB /* libPods-TestZXCustomTabBarTests.a */; };
+		6E6FEB77214BA0CD007D5EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB76214BA0CD007D5EC1 /* AppDelegate.m */; };
+		6E6FEB7A214BA0CD007D5EC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB79214BA0CD007D5EC1 /* ViewController.m */; };
+		6E6FEB7D214BA0CD007D5EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEB7B214BA0CD007D5EC1 /* Main.storyboard */; };
+		6E6FEB7F214BA0CF007D5EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEB7E214BA0CF007D5EC1 /* Assets.xcassets */; };
+		6E6FEB82214BA0CF007D5EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEB80214BA0CF007D5EC1 /* LaunchScreen.storyboard */; };
+		6E6FEB85214BA0CF007D5EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB84214BA0CF007D5EC1 /* main.m */; };
+		6E6FEB8F214BA0CF007D5EC1 /* TestZXCustomTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB8E214BA0CF007D5EC1 /* TestZXCustomTabBarTests.m */; };
+		6E6FEB9A214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB99214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.m */; };
+		6E6FEBAB214BA0EE007D5EC1 /* ZXCustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEBA7214BA0EE007D5EC1 /* ZXCustomTabBarItem.m */; };
+		6E6FEBAC214BA0EE007D5EC1 /* ZXCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEBAA214BA0EE007D5EC1 /* ZXCustomTabBar.m */; };
+		6E6FEBB2214FADC9007D5EC1 /* icons8-home-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBAD214FADC8007D5EC1 /* icons8-home-select.png */; };
+		6E6FEBB3214FADC9007D5EC1 /* icons8-download-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBAE214FADC8007D5EC1 /* icons8-download-select.png */; };
+		6E6FEBB4214FADC9007D5EC1 /* icons8-phone-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBAF214FADC8007D5EC1 /* icons8-phone-select.png */; };
+		6E6FEBB5214FADC9007D5EC1 /* icons8-facebook-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBB0214FADC8007D5EC1 /* icons8-facebook-select.png */; };
+		6E6FEBB6214FADC9007D5EC1 /* icons8-search-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBB1214FADC8007D5EC1 /* icons8-search-select.png */; };
+		6E6FEBBC214FADD3007D5EC1 /* icons8-phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBB7214FADD2007D5EC1 /* icons8-phone.png */; };
+		6E6FEBBD214FADD3007D5EC1 /* icons8-download.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBB8214FADD3007D5EC1 /* icons8-download.png */; };
+		6E6FEBBE214FADD3007D5EC1 /* icons8-search.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBB9214FADD3007D5EC1 /* icons8-search.png */; };
+		6E6FEBBF214FADD3007D5EC1 /* icons8-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBBA214FADD3007D5EC1 /* icons8-facebook.png */; };
+		6E6FEBC0214FADD3007D5EC1 /* icons8-home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBBB214FADD3007D5EC1 /* icons8-home.png */; };
+		880875F6E7697EC40F4EA895 /* libPods-TestZXCustomTabBarUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEE1B05E2BB166E2E4B8D76 /* libPods-TestZXCustomTabBarUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E6FEB8B214BA0CF007D5EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E6FEB6A214BA0CD007D5EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6FEB71214BA0CD007D5EC1;
+			remoteInfo = TestZXCustomTabBar;
+		};
+		6E6FEB96214BA0CF007D5EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E6FEB6A214BA0CD007D5EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6FEB71214BA0CD007D5EC1;
+			remoteInfo = TestZXCustomTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48FAE23F90CB004B919C7600 /* Pods-TestZXCustomTabBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZXCustomTabBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestZXCustomTabBarTests/Pods-TestZXCustomTabBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		4DEE1B05E2BB166E2E4B8D76 /* libPods-TestZXCustomTabBarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestZXCustomTabBarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE69202AE839031C42F9A03 /* Pods-TestZXCustomTabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZXCustomTabBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestZXCustomTabBarUITests/Pods-TestZXCustomTabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4DD333E03B85DA01395822 /* Pods-TestZXCustomTabBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZXCustomTabBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestZXCustomTabBarUITests/Pods-TestZXCustomTabBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E6FEB72214BA0CD007D5EC1 /* TestZXCustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestZXCustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6FEB75214BA0CD007D5EC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E6FEB76214BA0CD007D5EC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E6FEB78214BA0CD007D5EC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E6FEB79214BA0CD007D5EC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E6FEB7C214BA0CD007D5EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E6FEB7E214BA0CF007D5EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E6FEB81214BA0CF007D5EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E6FEB83214BA0CF007D5EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6FEB84214BA0CF007D5EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E6FEB8A214BA0CF007D5EC1 /* TestZXCustomTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestZXCustomTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6FEB8E214BA0CF007D5EC1 /* TestZXCustomTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestZXCustomTabBarTests.m; sourceTree = "<group>"; };
+		6E6FEB90214BA0CF007D5EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6FEB95214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestZXCustomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6FEB99214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestZXCustomTabBarUITests.m; sourceTree = "<group>"; };
+		6E6FEB9B214BA0CF007D5EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6FEBA7214BA0EE007D5EC1 /* ZXCustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCustomTabBarItem.m; sourceTree = "<group>"; };
+		6E6FEBA8214BA0EE007D5EC1 /* ZXCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCustomTabBar.h; sourceTree = "<group>"; };
+		6E6FEBA9214BA0EE007D5EC1 /* ZXCustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCustomTabBarItem.h; sourceTree = "<group>"; };
+		6E6FEBAA214BA0EE007D5EC1 /* ZXCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCustomTabBar.m; sourceTree = "<group>"; };
+		6E6FEBAD214FADC8007D5EC1 /* icons8-home-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-select.png"; sourceTree = "<group>"; };
+		6E6FEBAE214FADC8007D5EC1 /* icons8-download-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-download-select.png"; sourceTree = "<group>"; };
+		6E6FEBAF214FADC8007D5EC1 /* icons8-phone-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-phone-select.png"; sourceTree = "<group>"; };
+		6E6FEBB0214FADC8007D5EC1 /* icons8-facebook-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-facebook-select.png"; sourceTree = "<group>"; };
+		6E6FEBB1214FADC8007D5EC1 /* icons8-search-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search-select.png"; sourceTree = "<group>"; };
+		6E6FEBB7214FADD2007D5EC1 /* icons8-phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-phone.png"; sourceTree = "<group>"; };
+		6E6FEBB8214FADD3007D5EC1 /* icons8-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-download.png"; sourceTree = "<group>"; };
+		6E6FEBB9214FADD3007D5EC1 /* icons8-search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search.png"; sourceTree = "<group>"; };
+		6E6FEBBA214FADD3007D5EC1 /* icons8-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-facebook.png"; sourceTree = "<group>"; };
+		6E6FEBBB214FADD3007D5EC1 /* icons8-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home.png"; sourceTree = "<group>"; };
+		A8B70E12184BE8D18D05136E /* Pods-TestZXCustomTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZXCustomTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestZXCustomTabBar/Pods-TestZXCustomTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		C0433434B5C76AB0C041057E /* Pods-TestZXCustomTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZXCustomTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestZXCustomTabBar/Pods-TestZXCustomTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		D93E597A38F195B3ACC6C934 /* libPods-TestZXCustomTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestZXCustomTabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33FF4EC8ECBFB5CFA420AFB /* libPods-TestZXCustomTabBarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestZXCustomTabBarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C48A5D61C03D921F72541D /* Pods-TestZXCustomTabBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZXCustomTabBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestZXCustomTabBarTests/Pods-TestZXCustomTabBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6FEB6F214BA0CD007D5EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476B44F46FE210B85F4FE897 /* libPods-TestZXCustomTabBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6FEB87214BA0CF007D5EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9080474F423B264FB20778 /* libPods-TestZXCustomTabBarTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6FEB92214BA0CF007D5EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880875F6E7697EC40F4EA895 /* libPods-TestZXCustomTabBarUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CD2C85898DB0DBF988CAC78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D93E597A38F195B3ACC6C934 /* libPods-TestZXCustomTabBar.a */,
+				E33FF4EC8ECBFB5CFA420AFB /* libPods-TestZXCustomTabBarTests.a */,
+				4DEE1B05E2BB166E2E4B8D76 /* libPods-TestZXCustomTabBarUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E6FEB69214BA0CD007D5EC1 = {
+			isa = PBXGroup;
+			children = (
+				6E6FEB74214BA0CD007D5EC1 /* TestZXCustomTabBar */,
+				6E6FEB8D214BA0CF007D5EC1 /* TestZXCustomTabBarTests */,
+				6E6FEB98214BA0CF007D5EC1 /* TestZXCustomTabBarUITests */,
+				6E6FEB73214BA0CD007D5EC1 /* Products */,
+				9FABE3BD930E7D43273B5F12 /* Pods */,
+				6CD2C85898DB0DBF988CAC78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E6FEB73214BA0CD007D5EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FEB72214BA0CD007D5EC1 /* TestZXCustomTabBar.app */,
+				6E6FEB8A214BA0CF007D5EC1 /* TestZXCustomTabBarTests.xctest */,
+				6E6FEB95214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E6FEB74214BA0CD007D5EC1 /* TestZXCustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FEB75214BA0CD007D5EC1 /* AppDelegate.h */,
+				6E6FEB76214BA0CD007D5EC1 /* AppDelegate.m */,
+				6E6FEB78214BA0CD007D5EC1 /* ViewController.h */,
+				6E6FEB79214BA0CD007D5EC1 /* ViewController.m */,
+				6E6FEBA9214BA0EE007D5EC1 /* ZXCustomTabBarItem.h */,
+				6E6FEBA7214BA0EE007D5EC1 /* ZXCustomTabBarItem.m */,
+				6E6FEBA8214BA0EE007D5EC1 /* ZXCustomTabBar.h */,
+				6E6FEBAA214BA0EE007D5EC1 /* ZXCustomTabBar.m */,
+				6E6FEB7B214BA0CD007D5EC1 /* Main.storyboard */,
+				6E6FEB7E214BA0CF007D5EC1 /* Assets.xcassets */,
+				6E6FEB80214BA0CF007D5EC1 /* LaunchScreen.storyboard */,
+				6E6FEB83214BA0CF007D5EC1 /* Info.plist */,
+				6E6FEB84214BA0CF007D5EC1 /* main.m */,
+				6E6FEBAE214FADC8007D5EC1 /* icons8-download-select.png */,
+				6E6FEBB0214FADC8007D5EC1 /* icons8-facebook-select.png */,
+				6E6FEBAD214FADC8007D5EC1 /* icons8-home-select.png */,
+				6E6FEBAF214FADC8007D5EC1 /* icons8-phone-select.png */,
+				6E6FEBB1214FADC8007D5EC1 /* icons8-search-select.png */,
+				6E6FEBB8214FADD3007D5EC1 /* icons8-download.png */,
+				6E6FEBBA214FADD3007D5EC1 /* icons8-facebook.png */,
+				6E6FEBBB214FADD3007D5EC1 /* icons8-home.png */,
+				6E6FEBB7214FADD2007D5EC1 /* icons8-phone.png */,
+				6E6FEBB9214FADD3007D5EC1 /* icons8-search.png */,
+			);
+			path = TestZXCustomTabBar;
+			sourceTree = "<group>";
+		};
+		6E6FEB8D214BA0CF007D5EC1 /* TestZXCustomTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FEB8E214BA0CF007D5EC1 /* TestZXCustomTabBarTests.m */,
+				6E6FEB90214BA0CF007D5EC1 /* Info.plist */,
+			);
+			path = TestZXCustomTabBarTests;
+			sourceTree = "<group>";
+		};
+		6E6FEB98214BA0CF007D5EC1 /* TestZXCustomTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FEB99214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.m */,
+				6E6FEB9B214BA0CF007D5EC1 /* Info.plist */,
+			);
+			path = TestZXCustomTabBarUITests;
+			sourceTree = "<group>";
+		};
+		9FABE3BD930E7D43273B5F12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8B70E12184BE8D18D05136E /* Pods-TestZXCustomTabBar.debug.xcconfig */,
+				C0433434B5C76AB0C041057E /* Pods-TestZXCustomTabBar.release.xcconfig */,
+				F6C48A5D61C03D921F72541D /* Pods-TestZXCustomTabBarTests.debug.xcconfig */,
+				48FAE23F90CB004B919C7600 /* Pods-TestZXCustomTabBarTests.release.xcconfig */,
+				6CE69202AE839031C42F9A03 /* Pods-TestZXCustomTabBarUITests.debug.xcconfig */,
+				6D4DD333E03B85DA01395822 /* Pods-TestZXCustomTabBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E6FEB71214BA0CD007D5EC1 /* TestZXCustomTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6FEB9E214BA0CF007D5EC1 /* Build configuration list for PBXNativeTarget "TestZXCustomTabBar" */;
+			buildPhases = (
+				A1F2AB7215678C04439CD6A6 /* [CP] Check Pods Manifest.lock */,
+				6E6FEB6E214BA0CD007D5EC1 /* Sources */,
+				6E6FEB6F214BA0CD007D5EC1 /* Frameworks */,
+				6E6FEB70214BA0CD007D5EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestZXCustomTabBar;
+			productName = TestZXCustomTabBar;
+			productReference = 6E6FEB72214BA0CD007D5EC1 /* TestZXCustomTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E6FEB89214BA0CF007D5EC1 /* TestZXCustomTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6FEBA1214BA0CF007D5EC1 /* Build configuration list for PBXNativeTarget "TestZXCustomTabBarTests" */;
+			buildPhases = (
+				20DD210471E88F7651E16558 /* [CP] Check Pods Manifest.lock */,
+				6E6FEB86214BA0CF007D5EC1 /* Sources */,
+				6E6FEB87214BA0CF007D5EC1 /* Frameworks */,
+				6E6FEB88214BA0CF007D5EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6FEB8C214BA0CF007D5EC1 /* PBXTargetDependency */,
+			);
+			name = TestZXCustomTabBarTests;
+			productName = TestZXCustomTabBarTests;
+			productReference = 6E6FEB8A214BA0CF007D5EC1 /* TestZXCustomTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E6FEB94214BA0CF007D5EC1 /* TestZXCustomTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6FEBA4214BA0CF007D5EC1 /* Build configuration list for PBXNativeTarget "TestZXCustomTabBarUITests" */;
+			buildPhases = (
+				A04CE7E0B21AA3AAEC5959BB /* [CP] Check Pods Manifest.lock */,
+				6E6FEB91214BA0CF007D5EC1 /* Sources */,
+				6E6FEB92214BA0CF007D5EC1 /* Frameworks */,
+				6E6FEB93214BA0CF007D5EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6FEB97214BA0CF007D5EC1 /* PBXTargetDependency */,
+			);
+			name = TestZXCustomTabBarUITests;
+			productName = TestZXCustomTabBarUITests;
+			productReference = 6E6FEB95214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E6FEB6A214BA0CD007D5EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhaoxu;
+				TargetAttributes = {
+					6E6FEB71214BA0CD007D5EC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6E6FEB89214BA0CF007D5EC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6E6FEB71214BA0CD007D5EC1;
+					};
+					6E6FEB94214BA0CF007D5EC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6E6FEB71214BA0CD007D5EC1;
+					};
+				};
+			};
+			buildConfigurationList = 6E6FEB6D214BA0CD007D5EC1 /* Build configuration list for PBXProject "TestZXCustomTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E6FEB69214BA0CD007D5EC1;
+			productRefGroup = 6E6FEB73214BA0CD007D5EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E6FEB71214BA0CD007D5EC1 /* TestZXCustomTabBar */,
+				6E6FEB89214BA0CF007D5EC1 /* TestZXCustomTabBarTests */,
+				6E6FEB94214BA0CF007D5EC1 /* TestZXCustomTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E6FEB70214BA0CD007D5EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6FEBB2214FADC9007D5EC1 /* icons8-home-select.png in Resources */,
+				6E6FEB82214BA0CF007D5EC1 /* LaunchScreen.storyboard in Resources */,
+				6E6FEBBC214FADD3007D5EC1 /* icons8-phone.png in Resources */,
+				6E6FEB7F214BA0CF007D5EC1 /* Assets.xcassets in Resources */,
+				6E6FEB7D214BA0CD007D5EC1 /* Main.storyboard in Resources */,
+				6E6FEBBD214FADD3007D5EC1 /* icons8-download.png in Resources */,
+				6E6FEBB5214FADC9007D5EC1 /* icons8-facebook-select.png in Resources */,
+				6E6FEBB4214FADC9007D5EC1 /* icons8-phone-select.png in Resources */,
+				6E6FEBB3214FADC9007D5EC1 /* icons8-download-select.png in Resources */,
+				6E6FEBBF214FADD3007D5EC1 /* icons8-facebook.png in Resources */,
+				6E6FEBBE214FADD3007D5EC1 /* icons8-search.png in Resources */,
+				6E6FEBB6214FADC9007D5EC1 /* icons8-search-select.png in Resources */,
+				6E6FEBC0214FADD3007D5EC1 /* icons8-home.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6FEB88214BA0CF007D5EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6FEB93214BA0CF007D5EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20DD210471E88F7651E16558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestZXCustomTabBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04CE7E0B21AA3AAEC5959BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestZXCustomTabBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F2AB7215678C04439CD6A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestZXCustomTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6FEB6E214BA0CD007D5EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6FEB7A214BA0CD007D5EC1 /* ViewController.m in Sources */,
+				6E6FEBAC214BA0EE007D5EC1 /* ZXCustomTabBar.m in Sources */,
+				6E6FEB85214BA0CF007D5EC1 /* main.m in Sources */,
+				6E6FEBAB214BA0EE007D5EC1 /* ZXCustomTabBarItem.m in Sources */,
+				6E6FEB77214BA0CD007D5EC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6FEB86214BA0CF007D5EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6FEB8F214BA0CF007D5EC1 /* TestZXCustomTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6FEB91214BA0CF007D5EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6FEB9A214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E6FEB8C214BA0CF007D5EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6FEB71214BA0CD007D5EC1 /* TestZXCustomTabBar */;
+			targetProxy = 6E6FEB8B214BA0CF007D5EC1 /* PBXContainerItemProxy */;
+		};
+		6E6FEB97214BA0CF007D5EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6FEB71214BA0CD007D5EC1 /* TestZXCustomTabBar */;
+			targetProxy = 6E6FEB96214BA0CF007D5EC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E6FEB7B214BA0CD007D5EC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6FEB7C214BA0CD007D5EC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E6FEB80214BA0CF007D5EC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6FEB81214BA0CF007D5EC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E6FEB9C214BA0CF007D5EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E6FEB9D214BA0CF007D5EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E6FEB9F214BA0CF007D5EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B70E12184BE8D18D05136E /* Pods-TestZXCustomTabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestZXCustomTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoxu.TestZXCustomTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6FEBA0214BA0CF007D5EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0433434B5C76AB0C041057E /* Pods-TestZXCustomTabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestZXCustomTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoxu.TestZXCustomTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E6FEBA2214BA0CF007D5EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C48A5D61C03D921F72541D /* Pods-TestZXCustomTabBarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestZXCustomTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoxu.TestZXCustomTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestZXCustomTabBar.app/TestZXCustomTabBar";
+			};
+			name = Debug;
+		};
+		6E6FEBA3214BA0CF007D5EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FAE23F90CB004B919C7600 /* Pods-TestZXCustomTabBarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestZXCustomTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoxu.TestZXCustomTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestZXCustomTabBar.app/TestZXCustomTabBar";
+			};
+			name = Release;
+		};
+		6E6FEBA5214BA0CF007D5EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE69202AE839031C42F9A03 /* Pods-TestZXCustomTabBarUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestZXCustomTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoxu.TestZXCustomTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestZXCustomTabBar;
+			};
+			name = Debug;
+		};
+		6E6FEBA6214BA0CF007D5EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4DD333E03B85DA01395822 /* Pods-TestZXCustomTabBarUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestZXCustomTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoxu.TestZXCustomTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestZXCustomTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E6FEB6D214BA0CD007D5EC1 /* Build configuration list for PBXProject "TestZXCustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6FEB9C214BA0CF007D5EC1 /* Debug */,
+				6E6FEB9D214BA0CF007D5EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6FEB9E214BA0CF007D5EC1 /* Build configuration list for PBXNativeTarget "TestZXCustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6FEB9F214BA0CF007D5EC1 /* Debug */,
+				6E6FEBA0214BA0CF007D5EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6FEBA1214BA0CF007D5EC1 /* Build configuration list for PBXNativeTarget "TestZXCustomTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6FEBA2214BA0CF007D5EC1 /* Debug */,
+				6E6FEBA3214BA0CF007D5EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6FEBA4214BA0CF007D5EC1 /* Build configuration list for PBXNativeTarget "TestZXCustomTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6FEBA5214BA0CF007D5EC1 /* Debug */,
+				6E6FEBA6214BA0CF007D5EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E6FEB6A214BA0CD007D5EC1 /* Project object */;
+}
