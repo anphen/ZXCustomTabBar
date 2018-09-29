@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		476B44F46FE210B85F4FE897 /* libPods-TestZXCustomTabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D93E597A38F195B3ACC6C934 /* libPods-TestZXCustomTabBar.a */; };
 		5E9080474F423B264FB20778 /* libPods-TestZXCustomTabBarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E33FF4EC8ECBFB5CFA420AFB /* libPods-TestZXCustomTabBarTests.a */; };
+		6E46F8F8215FD95500C4A3AF /* ZXCustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F8F5215FD95500C4A3AF /* ZXCustomTabBarItem.m */; };
+		6E46F8F9215FD95500C4A3AF /* ZXCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F8F6215FD95500C4A3AF /* ZXCustomTabBar.m */; };
 		6E6FEB77214BA0CD007D5EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB76214BA0CD007D5EC1 /* AppDelegate.m */; };
 		6E6FEB7A214BA0CD007D5EC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB79214BA0CD007D5EC1 /* ViewController.m */; };
 		6E6FEB7D214BA0CD007D5EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEB7B214BA0CD007D5EC1 /* Main.storyboard */; };
@@ -17,8 +19,6 @@
 		6E6FEB85214BA0CF007D5EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB84214BA0CF007D5EC1 /* main.m */; };
 		6E6FEB8F214BA0CF007D5EC1 /* TestZXCustomTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB8E214BA0CF007D5EC1 /* TestZXCustomTabBarTests.m */; };
 		6E6FEB9A214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEB99214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.m */; };
-		6E6FEBAB214BA0EE007D5EC1 /* ZXCustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEBA7214BA0EE007D5EC1 /* ZXCustomTabBarItem.m */; };
-		6E6FEBAC214BA0EE007D5EC1 /* ZXCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEBAA214BA0EE007D5EC1 /* ZXCustomTabBar.m */; };
 		6E6FEBB2214FADC9007D5EC1 /* icons8-home-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBAD214FADC8007D5EC1 /* icons8-home-select.png */; };
 		6E6FEBB3214FADC9007D5EC1 /* icons8-download-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBAE214FADC8007D5EC1 /* icons8-download-select.png */; };
 		6E6FEBB4214FADC9007D5EC1 /* icons8-phone-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6FEBAF214FADC8007D5EC1 /* icons8-phone-select.png */; };
@@ -54,6 +54,10 @@
 		4DEE1B05E2BB166E2E4B8D76 /* libPods-TestZXCustomTabBarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestZXCustomTabBarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE69202AE839031C42F9A03 /* Pods-TestZXCustomTabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZXCustomTabBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestZXCustomTabBarUITests/Pods-TestZXCustomTabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D4DD333E03B85DA01395822 /* Pods-TestZXCustomTabBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZXCustomTabBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestZXCustomTabBarUITests/Pods-TestZXCustomTabBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E46F8F4215FD95500C4A3AF /* ZXCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCustomTabBar.h; sourceTree = "<group>"; };
+		6E46F8F5215FD95500C4A3AF /* ZXCustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCustomTabBarItem.m; sourceTree = "<group>"; };
+		6E46F8F6215FD95500C4A3AF /* ZXCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCustomTabBar.m; sourceTree = "<group>"; };
+		6E46F8F7215FD95500C4A3AF /* ZXCustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCustomTabBarItem.h; sourceTree = "<group>"; };
 		6E6FEB72214BA0CD007D5EC1 /* TestZXCustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestZXCustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6FEB75214BA0CD007D5EC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E6FEB76214BA0CD007D5EC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,10 +74,6 @@
 		6E6FEB95214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestZXCustomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6FEB99214BA0CF007D5EC1 /* TestZXCustomTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestZXCustomTabBarUITests.m; sourceTree = "<group>"; };
 		6E6FEB9B214BA0CF007D5EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E6FEBA7214BA0EE007D5EC1 /* ZXCustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCustomTabBarItem.m; sourceTree = "<group>"; };
-		6E6FEBA8214BA0EE007D5EC1 /* ZXCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCustomTabBar.h; sourceTree = "<group>"; };
-		6E6FEBA9214BA0EE007D5EC1 /* ZXCustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCustomTabBarItem.h; sourceTree = "<group>"; };
-		6E6FEBAA214BA0EE007D5EC1 /* ZXCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCustomTabBar.m; sourceTree = "<group>"; };
 		6E6FEBAD214FADC8007D5EC1 /* icons8-home-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-select.png"; sourceTree = "<group>"; };
 		6E6FEBAE214FADC8007D5EC1 /* icons8-download-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-download-select.png"; sourceTree = "<group>"; };
 		6E6FEBAF214FADC8007D5EC1 /* icons8-phone-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-phone-select.png"; sourceTree = "<group>"; };
@@ -129,6 +129,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6E46F8F3215FD95500C4A3AF /* ZXCustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6E46F8F4215FD95500C4A3AF /* ZXCustomTabBar.h */,
+				6E46F8F5215FD95500C4A3AF /* ZXCustomTabBarItem.m */,
+				6E46F8F6215FD95500C4A3AF /* ZXCustomTabBar.m */,
+				6E46F8F7215FD95500C4A3AF /* ZXCustomTabBarItem.h */,
+			);
+			name = ZXCustomTabBar;
+			path = ../../ZXCustomTabBar;
+			sourceTree = "<group>";
+		};
 		6E6FEB69214BA0CD007D5EC1 = {
 			isa = PBXGroup;
 			children = (
@@ -154,14 +166,11 @@
 		6E6FEB74214BA0CD007D5EC1 /* TestZXCustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				6E46F8F3215FD95500C4A3AF /* ZXCustomTabBar */,
 				6E6FEB75214BA0CD007D5EC1 /* AppDelegate.h */,
 				6E6FEB76214BA0CD007D5EC1 /* AppDelegate.m */,
 				6E6FEB78214BA0CD007D5EC1 /* ViewController.h */,
 				6E6FEB79214BA0CD007D5EC1 /* ViewController.m */,
-				6E6FEBA9214BA0EE007D5EC1 /* ZXCustomTabBarItem.h */,
-				6E6FEBA7214BA0EE007D5EC1 /* ZXCustomTabBarItem.m */,
-				6E6FEBA8214BA0EE007D5EC1 /* ZXCustomTabBar.h */,
-				6E6FEBAA214BA0EE007D5EC1 /* ZXCustomTabBar.m */,
 				6E6FEB7B214BA0CD007D5EC1 /* Main.storyboard */,
 				6E6FEB7E214BA0CF007D5EC1 /* Assets.xcassets */,
 				6E6FEB80214BA0CF007D5EC1 /* LaunchScreen.storyboard */,
@@ -413,10 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E6FEB7A214BA0CD007D5EC1 /* ViewController.m in Sources */,
-				6E6FEBAC214BA0EE007D5EC1 /* ZXCustomTabBar.m in Sources */,
+				6E46F8F9215FD95500C4A3AF /* ZXCustomTabBar.m in Sources */,
 				6E6FEB85214BA0CF007D5EC1 /* main.m in Sources */,
-				6E6FEBAB214BA0EE007D5EC1 /* ZXCustomTabBarItem.m in Sources */,
 				6E6FEB77214BA0CD007D5EC1 /* AppDelegate.m in Sources */,
+				6E46F8F8215FD95500C4A3AF /* ZXCustomTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
